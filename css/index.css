@@ -1,0 +1,687 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hubballi&family=League+Gothic&family=Lobster&family=Oswald:wght@500&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* carosel */
+.crsl{
+    height: 100vh;
+}
+.box1{
+    background-image: url(../img/exp2.jpg);
+    height: 600px;
+}
+.box2{
+    background-image: url(../img/exp1.jpg);
+    height:600px;
+
+}
+.box3{
+    background-image: url(../img/exp3.jpg);
+    height: 600px;
+}
+.box4{
+    background-image: url(../img/exp4.jpg);
+    height: 600px;
+}
+
+.boxin1{
+   
+    height: 100%;
+    width: 100%;
+    
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(137, 43, 226, 0);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 15px solid rgba(137, 43, 226);
+
+}
+.boxin1:hover{
+    color: white;
+    background-color: rgba(57, 2, 107, 0.5);
+
+}
+.boxin1 p{
+    text-align: center;
+    margin : 100px 0;
+}
+
+.boxin2{
+   
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(137, 43, 226, 0);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 15px solid rgba(146, 58, 0);
+
+}
+.boxin2:hover{
+    color: white;
+    background-color: rgba(146, 58, 0, 0.5);
+
+}
+.boxin2 p{
+    text-align: center;
+    margin : 100px 0;
+}
+.boxin3{
+   
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(137, 43, 226, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 15px solid rgba(61, 255, 93);
+
+}
+.boxin3:hover{
+    color: white;
+    background-color: rgba(2, 110, 20, 0.5);
+
+}
+.boxin3 p{
+    text-align: center;
+    margin : 100px 0;
+}
+.boxin4{
+   
+    height: 100%;
+    width: 100%;
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(137, 43, 226, 0);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 15px solid rgba(231, 25, 25) ;
+
+}
+.boxin4:hover{
+    color: white;
+    background-color: rgba(126, 0, 0, 0.5);
+
+}
+.boxin4 p{
+    text-align: center;
+    margin : 100px 0;
+}
+.hide{
+    text-decoration: none;
+}
+.hide h4{
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+
+
+/* ----------page 4------------ */
+.page4{
+    background-image: url(../img/new55.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page4 h1{
+    color: rgb(1, 1, 97);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 30px;
+
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/Athirapally2.jpg) ;
+}
+.image1 a{
+height: 100%;
+width: 100%;
+}
+.image1 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/kuthira-malika1.jpg) ;
+}
+.image2 a{
+height: 100%;
+width: 100%;
+}
+.image2 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/ranipuram-hills-2.jpg) ;
+}
+.image3 a{
+height: 100%;
+width: 100%;
+}
+.image3 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/beypore-1.jpg) ;
+}
+.image4 a{
+height: 100%;
+width: 100%;
+}
+.image4 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/arthunkal-church-3.jpg) ;
+}
+.image5 a{
+height: 100%;
+width: 100%;
+}
+.image5 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/Idikki-wagamon.jpg) ;
+}
+.image6 a{
+height: 100%;
+width: 100%;
+}
+.image6 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.image7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/silent-valley-3.jpg) ;
+}
+.image7 a{
+height: 100%;
+width: 100%;
+}
+.image7 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.image8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/munnar4.jpg) ;
+}
+.image8 a{
+height: 100%;
+width: 100%;
+}
+.image8 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+}
+.image1 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image2 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image3 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image4 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image5 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image6 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image7 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.image8 a:hover{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+.bdrr{
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+.btn2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2 a{
+    text-decoration: none;
+    background-color: rgb(0, 133, 29);
+    color: white;
+    text-align:center;
+    padding: 10px 25px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+
+}
+
+.btn2 a:hover{
+    border: 3px solid rgb(0, 133, 29);
+    background-color: white;
+    color: rgb(0, 133, 29);
+}
+/* =--------meghalaya---------- */
+.page3{
+    background-color: rgb(243, 252, 255);
+}
+.container3{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxl{
+    border: 5px solid rgb(52, 94, 185);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+}
+.page3 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.boxl h3{
+    font-family: 'Hubballi';
+    text-align: center;
+}
+.boxr{
+    border: 5px solid green;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    
+    
+
+}
+.boxl img:hover{
+    width: 150px;
+
+}
+.boxr img:hover{
+    width: 150px;
+
+}
+.boxr h3{
+    font-family: 'Hubballi';
+    text-align: center;
+}
+
+/* THINGS TO DOOO */
+
+/* --------page 5-------- */
+.page5{
+    background-image: url(../img/newbg22.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page5 h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    padding: 30px;
+
+}
+.bdrr{
+    box-shadow: 2PX 2PX  grey;
+}
+
+.im1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g1.jpg) ;
+}
+.im1 a{
+height: 100%;
+width: 100%;
+}
+.im1 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.im2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g2.jpg) ;
+}
+.im2 a{
+height: 100%;
+width: 100%;
+}
+.im2 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.im3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g3.jpg) ;
+}
+.im3 a{
+height: 100%;
+width: 100%;
+}
+.im3 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.im4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g4.jpg) ;
+}
+.im4 a{
+height: 100%;
+width: 100%;
+}
+.im4 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.im5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g5.jpg) ;
+}
+.im5 a{
+height: 100%;
+width: 100%;
+}
+.im5 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.im6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    height: 220px;
+    width: 350px;
+    color: white;
+    background-image:url(../img/g6.jpg) ;
+}
+.im6 a{
+height: 100%;
+width: 100%;
+}
+.im6 h3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Hubballi';
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+/* page6 */
+/* -------Page6------------ */
+.page6{
+    background-color: rgb(230, 246, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluex{
+    background-color: rgb(80, 133, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: white;
+    font-family: 'Hubballi';
+    box-shadow: 5px 5px gray;
+
+}
+.bluex h1{
+    font-size: 35px;
+    padding: 0 0 10px;
+}
+.bluex p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.bluex a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    text-align: center;
+    
+}
+.bluex a:hover{
+    background-color: white;
+    color: rgb(0, 133, 29);
+}
+
+/* --------footer--------- */
+.page7{
+    background-color: rgb(36, 36, 36);
+    height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.icons{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+i{
+    padding: 5px;
+
+
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.words h5{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.gry{
+    color: gray;
+}

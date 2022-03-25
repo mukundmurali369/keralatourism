@@ -1,0 +1,130 @@
+/* ---------------page1--------------- */
+.parent{
+    background-image: url(../img/blur.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    
+}
+
+.right{
+   background-color: white;
+   color: black;
+   background-color: rgb(0, 189, 0);
+   color: white;
+   font-family: cursive;
+   height: 80%;
+   padding: 20px;
+   box-shadow: 3px 3px 3px white;
+   
+
+}
+.right:hover{
+    background-color: rgb(0, 36, 114);  
+}
+.right h2{
+    text-align: center;
+    padding:0 20px 0;
+}
+.right p{
+    text-align: justify;
+
+}
+.left img{
+    box-shadow: 3px 3px 3px white;
+}
+/* page2 */
+.page2{
+  background-color: rgba(0, 0, 0, 0);
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 28, 121);  
+}
+.map iframe{
+    height:300px;
+    width: 100%;
+
+}
+
+.dtls{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: cursive;
+    background-color: rgb(0, 0, 0,0.4);
+    height:300px;
+
+}
+
+/* --------footer--------- */
+.page7{
+    background-color: rgb(36, 36, 36);
+    height: 30vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.icons{
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+i{
+    padding: 5px;
+
+
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.words h5{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.gry{
+    color: gray;
+}
+
+/* -----------for signin noly------------------ */
+.newbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* -------------sign in and up------------------ */
+.psdcmt a{
+    text-decoration: none;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+.newblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* -----------icon down------------- */
+.newblock img{
+    margin-bottom: -100px;
+    z-index: 1;
+}
